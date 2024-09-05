@@ -1,0 +1,71 @@
+.education-container {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.education-container h1 {
+  width: auto;
+  height: auto;
+  margin: 0 48%;
+  padding: 1% 0;
+  color: white;
+}
+
+.education-container p {
+  width: 40%;
+  height: auto;
+  margin: 0 32%;
+  padding: 1% 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.education-cards {
+  width: 90%;
+  margin: 0 5%;
+  padding: 2% 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.education-card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1% 0;
+  padding: 1%;
+  border-radius: 25px;
+  border: 1px solid #7b4397;
+  box-shadow: #7b4397 0px 5px 20px;
+  background-color: #222;
+}
+
+.education-card img {
+  width: 70%;
+  height: 35%;
+  margin: 2% 15%;
+  border-radius: 20px;
+}
+
+.education-card h2 {
+  text-align: center;
+  margin: 0 1%;
+  color: white;
+}
+
+.education-card h3,
+.education-card h4 {
+  text-align: center;
+  color: white;
+}
+
+.education-card .college-desc {
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  color: white;
+}

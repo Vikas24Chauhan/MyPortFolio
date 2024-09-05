@@ -1,0 +1,66 @@
+.about-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: black;
+}
+
+.hero-contant {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-contant h1 {
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.about-container h2 {
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.about-container p {
+  width: 80%;
+  height: auto;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.hero-btn {
+  width: 20%;
+  height: 10%;
+  margin: 2% 40%;
+  color: white;
+  background: linear-gradient(to right, #7b4397, #dc2430);
+  border: 1px solid #7b4397;
+  box-shadow: #7b4397 0px 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+.image-div {
+  width: 50%;
+  height: auto;
+}
+
+.image-div img {
+  width: 50%;
+  height: auto;
+  margin: 2% 25%;
+  border-radius: 50%;
+  border: 1px solid aqua;
+  box-shadow: aqua 5px 5px 20px;
+}

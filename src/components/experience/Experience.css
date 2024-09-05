@@ -1,0 +1,112 @@
+.experience-container {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.experience-container h1 {
+  width: auto;
+  height: auto;
+  margin: 0 48%;
+  padding: 1% 0;
+  color: white;
+}
+
+.experience-container h2 {
+  width: 45%;
+  height: auto;
+  margin: 0 40%;
+  padding: 0.5% 0;
+  color: white;
+}
+
+.experience-cards {
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  padding: 1% 0;
+}
+
+.experience-card {
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  display: flex;
+  border: 0.1px solid gold;
+  box-shadow: gold 0px 5px 20px;
+  border-radius: 25px;
+  background-color: #222;
+}
+
+.details1 {
+  width: 30%;
+  height: 80%;
+}
+
+.details1 img {
+  width: 50%;
+  height: 50%;
+  margin: 2% 25%;
+  border-radius: 25px;
+}
+
+.experience-btn {
+  width: 50%;
+  height: 50%;
+  margin: 2% 25%;
+  font-size: 1.5rem;
+  color: white;
+  background: linear-gradient(to right, #7b4397, #dc2430);
+  border: 1px solid #7b4397;
+  box-shadow: #7b4397 0px 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.experience-btn:hover {
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+.details1 h2 {
+  width: 100%;
+  height: auto;
+  margin: 1% 15%;
+  color: white;
+}
+
+.details2 {
+  width: 70%;
+  height: auto;
+}
+
+.details2 h2 {
+  width: 45%;
+  height: auto;
+  margin: 2% 0;
+  padding: 1% 0;
+  color: white;
+}
+
+.details2 h4 {
+  width: 100%;
+  height: auto;
+  margin: 1% 0;
+  color: white;
+}
+
+.details2 p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.details2 h3 {
+  width: 80%;
+  height: auto;
+  display: flex;
+}
+
+.details2 h5 {
+  width: 100%;
+  height: auto;
+  color: white;
+}

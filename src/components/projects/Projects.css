@@ -1,0 +1,115 @@
+.projects-container {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: black;
+}
+
+.projects-container h1 {
+  width: auto;
+  height: auto;
+  margin: 0 48%;
+  padding: 2% 0;
+  color: white;
+  /* text-align: center; */
+}
+
+.projects-cards {
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  padding: 1% 0;
+}
+
+.projects-card {
+  width: 90%;
+  height: auto;
+  margin: 3% 5%;
+  display: flex;
+  border: 0.1px solid darkgreen;
+  box-shadow: darkgreen 0px 5px 20px;
+  border-radius: 25px;
+  background-color: #222;
+}
+
+.projects-details1 {
+  width: 30%;
+  height: 100%;
+}
+
+.projects-details1 h2 {
+  width: 100%;
+  height: auto;
+  margin: 2% 25%;
+  padding: 2% 0;
+  color: white;
+}
+
+.projects-details1 img {
+  width: 90%;
+  height: auto;
+  margin: 2% 5%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.projects-details2 {
+  width: 70%;
+  height: 100%;
+}
+
+.projects-details2 h2 {
+  width: 45%;
+  height: auto;
+  margin: 2% 2%;
+  padding: 1% 0;
+  color: white;
+}
+
+.projects-details2 h4 {
+  width: 100%;
+  height: auto;
+  margin: 1% 0;
+  color: white;
+}
+
+.projects-details2 p {
+  font-size: 1.2rem;
+  margin: 1% 2%;
+  color: white;
+}
+
+.projects-tags {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.projects-details2 h4 {
+  width: 20%;
+  height: auto;
+  color: white;
+  margin: 1% 2%;
+  padding: 4px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #592b69;
+  border-radius: 10px;
+}
+
+.projects-btn {
+  width: 120px;
+  height: 50px;
+  margin: 5% 35%;
+  font-size: 1.5rem;
+  color: white;
+  background: linear-gradient(to right, #7b4397, #dc2430);
+  border: 1px solid #7b4397;
+  box-shadow: #7b4397 0px 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.projects-btn:hover {
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
