@@ -6,3 +6,9 @@
   color: white;
   background: linear-gradient(to right, #04b7ba, #024c4d);
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    font-size: 0.8rem;
+  }
+}

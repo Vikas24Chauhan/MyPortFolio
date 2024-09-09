@@ -13,9 +13,10 @@
 }
 
 .experience-container h2 {
-  width: 45%;
+  width: 100%;
   height: auto;
-  margin: 0 40%;
+  margin: 0 auto;
+  text-align: center;
   padding: 0.5% 0;
   color: white;
 }
@@ -109,4 +110,50 @@
   width: 100%;
   height: auto;
   color: white;
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+  .experience-container h1 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .experience-container h2 {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .experience-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .details1 img {
+    width: 80%;
+    margin: 2% 0;
+  }
+
+  .experience-btn {
+    width: 80%;
+    font-size: 1.2rem;
+    margin: 2% 0;
+  }
+
+  .details2 p {
+    font-size: 0.9rem;
+  }
+
+  .details2 h3 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .details2 h5 {
+    width: 40%;
+  }
 }

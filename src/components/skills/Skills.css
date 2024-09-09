@@ -13,11 +13,12 @@
 }
 
 .skills-container h2 {
-  width: 34%;
+  width: 100%;
   height: auto;
-  margin: 0 34%;
+  margin: 0 auto;
   padding: 1% 0;
   color: white;
+  text-align: center;
 }
 
 .skills-cards {
@@ -72,4 +73,44 @@
 .item h4 {
   color: white;
   opacity: 70%;
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+  .skills-container h1 {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .skills-container h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .skills-cards {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .skills-card {
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  .item {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .item img {
+    width: 30%;
+  }
+
+  .item h4 {
+    font-size: 0.9rem;
+  }
 }

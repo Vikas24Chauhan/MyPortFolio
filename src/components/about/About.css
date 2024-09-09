@@ -64,3 +64,31 @@
   border: 1px solid aqua;
   box-shadow: aqua 5px 5px 20px;
 }
+
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+  .hero-contant h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-container p {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    width: 70%;
+    padding: 8px;
+  }
+
+  .image-div img {
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 4%;
+  }
+}

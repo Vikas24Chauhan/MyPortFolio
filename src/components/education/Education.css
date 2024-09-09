@@ -13,7 +13,7 @@
 }
 
 .education-container p {
-  width: 40%;
+  width: 35%;
   height: auto;
   margin: 0 32%;
   padding: 1% 0;
@@ -68,4 +68,30 @@
   height: auto;
   margin: 0 5%;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .education-container h1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .education-container p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .education-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .education-card h3,
+  .education-card h4 {
+    font-size: 0.8rem;
+  }
+
+  .education-card .college-desc {
+    font-size: 1rem;
+  }
 }

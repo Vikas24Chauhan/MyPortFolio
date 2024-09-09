@@ -3,18 +3,25 @@
   height: 50px;
   color: white;
   background: linear-gradient(to right, #04b7ba, #024c4d);
-  padding: 4px 0px;
+  padding: 5px 0px;
   display: flex;
-  justify-content: end;
+  align-items: center;
+  justify-content: center;
 }
 
-.header-container ul li {
-  display: inline-block;
-  margin: 2px 25px;
-  font-size: 20px;
+.header-container img {
+  width: 15%;
+  height: 100%;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+  .header-container {
+    height: auto;
+  }
+
+  .header-container img {
+    width: 30%;
+    height: auto;
+  }
 }
