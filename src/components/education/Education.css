@@ -5,93 +5,85 @@
 }
 
 .education-container h1 {
-  width: auto;
   height: auto;
-  margin: 0 48%;
-  padding: 1% 0;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .education-container p {
-  width: 35%;
   height: auto;
-  margin: 0 32%;
-  padding: 1% 0;
+  margin: 0;
   color: white;
   text-align: center;
   font-size: 1.5rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .education-cards {
-  width: 90%;
-  margin: 0 5%;
-  padding: 2% 0;
+  width: 100%;
+  padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
 .education-card {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 1% 0;
-  padding: 1%;
+  padding: 1rem;
   border-radius: 25px;
-  border: 1px solid #7b4397;
-  box-shadow: #7b4397 0px 5px 20px;
+  border: 1px solid #974389;
+  box-shadow: #974389 0px 5px 20px;
   background-color: #222;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 }
 
 .education-card img {
-  width: 70%;
-  height: 35%;
-  margin: 2% 15%;
+  width: 100%;
+  height: auto;
+  margin: 0;
   border-radius: 20px;
 }
 
 .education-card h2 {
   text-align: center;
-  margin: 0 1%;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
 }
 
 .education-card h3,
 .education-card h4 {
   text-align: center;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    margin: 1rem;
+  }
 }
 
 .education-card .college-desc {
-  width: 90%;
+  width: 100%;
   height: auto;
-  margin: 0 5%;
+  text-align: center;
   color: white;
-}
-
-@media (max-width: 768px) {
-  .education-container h1 {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .education-container p {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.2rem;
-  }
-
-  .education-card h2 {
-    font-size: 1.2rem;
-  }
-
-  .education-card h3,
-  .education-card h4 {
-    font-size: 0.8rem;
-  }
-
-  .education-card .college-desc {
-    font-size: 1rem;
+  @media (max-width: 768px) {
+    padding-bottom: 1rem;
   }
 }
