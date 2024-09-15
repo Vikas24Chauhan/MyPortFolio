@@ -12,13 +12,10 @@ function Experience() {
           <div key={data.id} className="experience-card">
             <div className="details1">
               <img src={data.img} alt="Company Logo" />
-              <button
-                className="experience-btn"
-                onClick={() =>
-                  window.open(data.doc, "_blank", "noopener noreferrer")
-                }
-              >
-                Experience Letter
+              <button className="experience-btn">
+                <a href={data.doc} target="_blank" rel="noopener noreferrer">
+                  Experience Letter
+                </a>
               </button>
             </div>
             <div className="details2">

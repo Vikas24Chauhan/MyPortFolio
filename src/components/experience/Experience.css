@@ -5,155 +5,147 @@
 }
 
 .experience-container h1 {
-  width: auto;
   height: auto;
-  margin: 0 48%;
-  padding: 1% 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 2rem;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .experience-container h2 {
-  width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
-  padding: 0.5% 0;
+  padding: 1rem 0;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .experience-cards {
-  width: 90%;
+  width: 100%;
   height: auto;
-  margin: 0 5%;
-  padding: 1% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
 }
 
 .experience-card {
   width: 90%;
   height: auto;
-  margin: 0 5%;
   display: flex;
+  align-items: center;
   border: 0.1px solid gold;
   box-shadow: gold 0px 5px 20px;
   border-radius: 25px;
   background-color: #222;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .details1 {
   width: 30%;
-  height: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .details1 img {
   width: 50%;
-  height: 50%;
-  margin: 2% 25%;
-  border-radius: 25px;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 2rem;
+  @media (max-width: 768px) {
+    width: 150%;
+    border-radius: 1rem;
+  }
 }
 
 .experience-btn {
-  width: 50%;
-  height: 50%;
-  margin: 2% 25%;
-  font-size: 1.5rem;
-  color: white;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 0;
   background: linear-gradient(to right, #7b4397, #dc2430);
-  border: 1px solid #7b4397;
   box-shadow: #7b4397 0px 5px 20px;
-  border-radius: 25px;
   cursor: pointer;
+  white-space: nowrap;
+  width: fit-content;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+
+.experience-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .experience-btn:hover {
   background: linear-gradient(to right, #185a9d, #43cea2);
 }
 
-.details1 h2 {
-  width: 100%;
-  height: auto;
-  margin: 1% 15%;
-  color: white;
-}
-
 .details2 {
   width: 70%;
   height: auto;
+  @media (max-width: 768px) {
+    width: 90%;
+    padding-top: 1rem;
+  }
 }
 
 .details2 h2 {
-  width: 45%;
+  width: 100%;
   height: auto;
-  margin: 2% 0;
-  padding: 1% 0;
+  text-align: start;
   color: white;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .details2 h4 {
   width: 100%;
   height: auto;
-  margin: 1% 0;
   color: white;
 }
 
 .details2 p {
+  width: 100%;
+  height: auto;
   font-size: 1.2rem;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 
 .details2 h3 {
   width: 80%;
   height: auto;
   display: flex;
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .details2 h5 {
   width: 100%;
   height: auto;
   color: white;
-}
-
-/* Media Query for mobile screens */
-@media (max-width: 768px) {
-  .experience-container h1 {
-    font-size: 1.5rem;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .experience-container h2 {
-    width: 100%;
-    font-size: 1rem;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .experience-card {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .details1 img {
-    width: 80%;
-    margin: 2% 0;
-  }
-
-  .experience-btn {
-    width: 80%;
-    font-size: 1.2rem;
-    margin: 2% 0;
-  }
-
-  .details2 p {
-    font-size: 0.9rem;
-  }
-
-  .details2 h3 {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-
-  .details2 h5 {
+  @media (max-width: 768px) {
     width: 40%;
   }
 }
