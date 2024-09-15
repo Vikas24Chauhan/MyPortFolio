@@ -23,13 +23,14 @@ function Projects() {
                       <h4>{t}</h4>
                     ))}
                   </div>
-                  <button
-                    className="projects-btn"
-                    onClick={() =>
-                      window.open(data.link, "_blank", "noopener noreferrer")
-                    }
-                  >
-                    Check It
+                  <button className="projects-btn">
+                    <a
+                      href={data.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Check It
+                    </a>
                   </button>
                 </div>
               </>
@@ -43,13 +44,14 @@ function Projects() {
                       <h4>{t}</h4>
                     ))}
                   </div>
-                  <button
-                    className="projects-btn"
-                    onClick={() =>
-                      window.open(data.link, "_blank", "noopener noreferrer")
-                    }
-                  >
-                    Check It
+                  <button className="projects-btn">
+                    <a
+                      href={data.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Check It
+                    </a>
                   </button>
                 </div>
                 <div className="projects-details1">
