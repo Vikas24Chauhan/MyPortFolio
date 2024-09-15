@@ -10,13 +10,10 @@ function About() {
         <h1>Hello, I am {Bio.name}</h1>
         <h2>I am a {Bio.roles[0]}</h2>
         <p>{Bio.description}</p>
-        <button
-          className="hero-btn"
-          onClick={() =>
-            window.open(Bio.resume, "_blank", "noopener noreferrer")
-          }
-        >
-          Check My Resume
+        <button className="hero-btn">
+          <a href={Bio.resume} target="_blank" rel="noopener noreferrer">
+            Check My Resume
+          </a>
         </button>
       </div>
 

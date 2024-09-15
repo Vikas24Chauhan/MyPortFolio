@@ -1,9 +1,8 @@
 .header-container {
   width: 100%;
-  height: 50px;
-  color: white;
+  height: auto;
   background: linear-gradient(to right, #04b7ba, #024c4d);
-  padding: 5px 0px;
+  padding: 1.5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,16 +11,8 @@
 .header-container img {
   width: 15%;
   height: 100%;
-}
-
-/* Media Query for mobile screens */
-@media (max-width: 768px) {
-  .header-container {
-    height: auto;
-  }
-
-  .header-container img {
-    width: 30%;
+  @media (max-width: 768px) {
+    width: 40%;
     height: auto;
   }
 }
