@@ -5,43 +5,57 @@
 }
 
 .skills-container h1 {
-  width: auto;
   height: auto;
-  margin: 0 48%;
-  padding: 1% 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 2rem;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .skills-container h2 {
-  width: 100%;
   height: auto;
-  margin: 0 auto;
-  padding: 1% 0;
+  margin: 0;
+  padding: 1rem 0;
   color: white;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .skills-cards {
-  width: 90%;
+  width: 100%;
   height: auto;
-  margin: 0 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 1rem;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 0 auto;
+    gap: 0;
+  }
 }
 
 .skills-card {
   width: 40%;
   height: auto;
-  margin: 1% 0;
+  margin: 1rem 0;
   border-radius: 25px;
   border: 0.1px solid #854ce6;
   box-shadow: #854ce6 0px 5px 20px;
   background-color: #222;
+  @media (max-width: 768px) {
+    width: 90%;
+    margin: 20px 0;
+  }
 }
 
 .skills-card h1 {
-  margin: 0 40%;
+  text-align: center;
   opacity: 80%;
 }
 
@@ -62,55 +76,27 @@
   justify-content: space-around;
   border-radius: 10px;
   border: 2px solid wheat;
+  @media (max-width: 768px) {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .item img {
   width: 40%;
   height: auto;
   border-radius: 15px;
+  @media (max-width: 768px) {
+    width: 30%;
+  }
 }
 
 .item h4 {
   color: white;
   opacity: 70%;
-}
-
-/* Media Query for mobile screens */
-@media (max-width: 768px) {
-  .skills-container h1 {
-    margin: 0 auto;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .skills-container h2 {
-    width: auto;
-    text-align: center;
-    font-size: 1rem;
-  }
-
-  .skills-cards {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .skills-card {
-    width: 90%;
-    margin: 20px 0;
-  }
-
-  .item {
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .item img {
-    width: 30%;
-  }
-
-  .item h4 {
-    font-size: 0.9rem;
+  @media (max-width: 768px) {
+    font-size: 15px;
   }
 }
