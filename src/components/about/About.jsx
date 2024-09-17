@@ -2,13 +2,28 @@ import React from "react";
 import "./About.css";
 import { Bio } from "../../assets/data/Constants";
 import Hero from "../../assets/images/HeroImage.jpg";
+import { Typewriter } from "react-simple-typewriter";
 
 function About() {
   return (
     <div className="about-container">
       <div className="hero-contant">
         <h1>Hello, I am {Bio.name}</h1>
-        <h2>I am a {Bio.roles[0]}</h2>
+        <h2>
+          I am a{" "}
+          <span>
+            <Typewriter
+              words={Bio.roles}
+              loop={true}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={2000}
+            />
+          </span>
+        </h2>
+
         <p>{Bio.description}</p>
         <button className="hero-btn">
           <a href={Bio.resume} target="_blank" rel="noopener noreferrer">

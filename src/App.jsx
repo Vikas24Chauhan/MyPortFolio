@@ -1,5 +1,4 @@
 import "./App.css";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
@@ -18,17 +17,6 @@ function App() {
       <Projects />
       <Education />
       <Footer />
-      {/* <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="education" element={<Education />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter> */}
     </>
   );
 }

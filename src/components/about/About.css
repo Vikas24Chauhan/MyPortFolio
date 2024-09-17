@@ -41,6 +41,16 @@
   }
 }
 
+.hero-contant span {
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  color: green;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
 .hero-contant p {
   width: 80%;
   height: auto;
@@ -85,6 +95,6 @@
   height: auto;
   margin: 4% 25%;
   border-radius: 50%;
-  border: 1px solid aqua;
-  box-shadow: aqua 5px 5px 20px;
+  border: 1px solid #7d3c98;
+  box-shadow: #7d3c98 0px 0px 50px;
 }
