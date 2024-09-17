@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import { skills } from "../../data/Constants";
+import { skills } from "../../assets/data/Constants";
 
 function Skills() {
   return (

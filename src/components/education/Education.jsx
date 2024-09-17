@@ -1,6 +1,6 @@
 import React from "react";
 import "./Education.css";
-import { education } from "../../data/Constants";
+import { education } from "../../assets/data/Constants";
 
 function Education() {
   return (

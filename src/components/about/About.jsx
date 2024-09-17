@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import { Bio } from "../../data/Constants";
-import Hero from "../../images/HeroImage.jpg";
+import { Bio } from "../../assets/data/Constants";
+import Hero from "../../assets/images/HeroImage.jpg";
 
 function About() {
   return (

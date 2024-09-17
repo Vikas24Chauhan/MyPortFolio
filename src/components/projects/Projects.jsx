@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { projects } from "../../data/Constants";
+import { projects } from "../../assets/data/Constants";
 
 function Projects() {
   return (

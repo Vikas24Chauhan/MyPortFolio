@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import { experiences } from "../../data/Constants";
+import { experiences } from "../../assets/data/Constants";
 
 function Experience() {
   return (

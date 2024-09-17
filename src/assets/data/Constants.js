@@ -4,12 +4,12 @@ import pokemon from "../images/pokemon.png";
 
 export const Bio = {
   name: "Vikas Chauhan",
-  roles: ["Node Js Developer", "Programmer"],
+  roles: ["React Js Developer", "Node Js Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Vikas24Chauhan",
   resume:
-    "https://drive.google.com/file/d/1VSOS8LoQOZsnVBAFm6wsldeTEvrHlTso/view?usp=drive_link",
+    "https://drive.google.com/file/d/1x4Vdanf-4phESZSdvcNG4W-Wr09CmpXA/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/vikas-chauhan-74924912b/",
   twitter: "https://twitter.com/vikas24chauhan",
   insta: "https://www.instagram.com/v.i.k.a.s._.24",
