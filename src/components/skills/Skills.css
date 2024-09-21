@@ -45,9 +45,9 @@
   height: auto;
   margin: 1rem 0;
   border-radius: 25px;
-  border: 0.1px solid #854ce6;
+  border: 1px solid #854ce6;
   box-shadow: #854ce6 0px 5px 20px;
-  background-color: #222;
+  background-color: rgba(17, 25, 40, 0.83);
   @media (max-width: 768px) {
     width: 90%;
     margin: 20px 0;

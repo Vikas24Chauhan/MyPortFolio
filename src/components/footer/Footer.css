@@ -4,7 +4,7 @@
   text-align: center;
   padding: 5px 0;
   color: white;
-  background: linear-gradient(to right, #04b7ba, #024c4d);
+  background-color: black;
 }
 
 @media (max-width: 768px) {

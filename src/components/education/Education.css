@@ -45,9 +45,9 @@
   flex-direction: column;
   padding: 1rem;
   border-radius: 25px;
-  border: 1px solid #974389;
-  box-shadow: #974389 0px 5px 20px;
-  background-color: #222;
+  border: 1px solid #854ce6;
+  box-shadow: #854ce6 0px 5px 20px;
+  background-color: rgba(17, 25, 40, 0.83);
   @media (max-width: 768px) {
     width: 80%;
   }
