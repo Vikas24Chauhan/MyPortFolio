@@ -1,6 +1,7 @@
 import cdn from "../images/cdn.png";
 import edusity from "../images/edusity.png";
 import pokemon from "../images/pokemon.png";
+import tenRocket from "../images/ten-rocket.png";
 
 export const Bio = {
   name: "Vikas Chauhan",
@@ -152,32 +153,20 @@ export const projects = [
       "The CDN Performance Dashboard is designed to monitor and analyze the performance of content delivery networks (CDNs) by calculating key metrics such as Time to First Byte (TTFB) and Time to Last Byte (TTLB) for images. This dashboard provides detailed insights by displaying data across various networks and regions, enabling users to assess and optimize CDN performance efficiently.",
     image: cdn,
     tags: ["React Js", "Node Js", "Express Js", "MongoDb", "Redux"],
-    link: "",
+    link: "https://vikas24chauhan.github.io/404-ErrorPage/",
   },
-  // {
-  //   id: 1,
-  //   type: "Self Project",
-  //   title: "CDN Performance Dashboard",
-  //   description:
-  //     "CDN Performance Dashboard is used to calculate the TTFB (time to first byte) and TTLB (time to last byte) of an Image. The data is displayed in the dashboard. In this project, we used various networks and regions.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/portfolio-e032c.appspot.com/o/project%20ss.png?alt=media&token=42556520-c513-4d1e-a8fc-14dda6c6ba9f",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   link: "",
-  // },
-  // {
-  //   id: 2,
-  //   type: "Self Project",
-  //   title: "CDN Performance Dashboard",
-  //   description:
-  //     "CDN Performance Dashboard is used to calculate the TTFB (time to first byte) and TTLB (time to last byte) of an Image. The data is displayed in the dashboard. In this project, we used various networks and regions.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/portfolio-e032c.appspot.com/o/project%20ss.png?alt=media&token=42556520-c513-4d1e-a8fc-14dda6c6ba9f",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   link: "",
-  // },
   {
-    id: 3,
+    id: 1,
+    type: "Internship Project",
+    title: "TEN Rocket",
+    description:
+      "TEN Rocket website showcases The Entrepreneurship Network company’s diverse services, offerings and work in an engaging and user-friendly manner. Designed with a modern, clean interface, the website features 16 distinct components, each contributing to a seamless and immersive browsing experience.",
+    image: tenRocket,
+    tags: ["React Js", "JavaScript", "Vite"],
+    link: "https://ten-rocket.vercel.app/",
+  },
+  {
+    id: 2,
     type: "Self Project",
     title: "Edusity",
     description:
@@ -187,13 +176,13 @@ export const projects = [
     link: "https://vikas24chauhan.github.io/edusity/",
   },
   {
-    id: 4,
+    id: 3,
     type: "Self Project",
     title: "Pokemon",
     description:
       "Welcome to the ultimate Pokémon Card Collection website! Dive into a world of nostalgia and discovery as you explore our extensive collection of Pokémon cards, from classic favorites to the latest releases. Whether you're a seasoned collector or just starting your journey, you'll find detailed information, high-quality images, and all the stats you need to enhance your collection or relive your favorite Pokémon moments.",
     image: pokemon,
-    tags: ["React Js", "JavaScript"],
+    tags: ["React Js", "JavaScript", "Vite"],
     link: "https://vikas24chauhan.github.io/pokemon/",
   },
 ];

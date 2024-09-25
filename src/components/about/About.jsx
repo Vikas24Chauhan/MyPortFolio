@@ -25,11 +25,15 @@ function About() {
         </h2>
 
         <p>{Bio.description}</p>
-        <button className="hero-btn">
-          <a href={Bio.resume} target="_blank" rel="noopener noreferrer">
-            Check My Resume
-          </a>
-        </button>
+
+        <a
+          className="resume-btn"
+          href={Bio.resume}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Check My Resume
+        </a>
       </div>
 
       <div className="image-div">
