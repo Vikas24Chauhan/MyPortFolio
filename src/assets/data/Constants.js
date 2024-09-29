@@ -163,7 +163,7 @@ export const projects = [
       "TEN Rocket website showcases The Entrepreneurship Network company’s diverse services, offerings and work in an engaging and user-friendly manner. Designed with a modern, clean interface, the website features 16 distinct components, each contributing to a seamless and immersive browsing experience.",
     image: tenRocket,
     tags: ["React Js", "JavaScript", "Vite"],
-    link: "https://ten-rocket.vercel.app/",
+    link: "https://ten-ai-consulting-labs.vercel.app/",
   },
   {
     id: 2,
