@@ -3,7 +3,7 @@ import styles from "../Styles/Timeline.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import LeewayHertz from "../Images/leewayHertz.png";
-import Ten from "../Images/ten.png";
+import Ten from "../Images/ten.webp";
 
 export const Experiences = () => {
   useEffect(() => {
@@ -13,10 +13,10 @@ export const Experiences = () => {
   return (
     <div className={styles.container}>
       <p className={styles.heading}>Experiences</p>
-      {/* <p className={styles.desc}>
-        The academic institutions and programs that have contributed to my
-        knowledge and growth.
-      </p> */}
+      <p className={styles.desc}>
+        The experiences and roles that have helped me grow and develop my skills
+        in the tech field.
+      </p>
       <div className={styles.timeline}>
         <div className={`${styles.box} ${styles.left_box}`}>
           <img
@@ -36,14 +36,21 @@ export const Experiences = () => {
               <span className={styles.tags}>CSS</span>
             </div>
             <p className={styles.description}>
-              Add------------------------------------------------------------------------
+              As a React.js Developer Intern at The Entrepreneurship Network, I
+              am actively involved in developing dynamic, user-friendly web
+              applications. My role focuses on building and optimizing
+              responsive UI components, integrating APIs, and ensuring smooth
+              application performance. I bring a strong passion for crafting
+              scalable and maintainable React applications while collaborating
+              effectively with cross-functional teams.
             </p>
             <div className={styles.button_box}>
-              <a href="#" target="_blank" rel="noreferrer">
+              {/* <a href="#" target="_blank" rel="noreferrer">
                 Experience Letter
-              </a>
+              </a> */}
+              <a>Experience Letter</a>
             </div>
-            <span className={styles.right_box_arrow}></span>
+            <span className={styles.left_box_arrow}></span>
           </div>
         </div>
 
@@ -66,9 +73,13 @@ export const Experiences = () => {
               <span className={styles.tags}>JavaScript</span>
             </div>
             <p className={styles.description}>
-              As a Node.js developer with one year of hands-on experience at
-              LeewayHertz, I bring a passion for crafting efficient, scalable,
-              and robust backend solutions.
+              As a Node.js Developer with one year of hands-on experience at
+              LeewayHertz, I am passionate about building efficient, scalable,
+              and robust backend systems. My expertise lies in developing
+              RESTful APIs, optimizing server performance, and ensuring seamless
+              integration with frontend applications. I am committed to writing
+              clean, maintainable code and solving complex problems to deliver
+              high-quality backend solutions.
             </p>
             <div className={styles.button_box}>
               <a
@@ -79,7 +90,7 @@ export const Experiences = () => {
                 Experience Letter
               </a>
             </div>
-            <span className={styles.left_box_arrow}></span>
+            <span className={styles.right_box_arrow}></span>
           </div>
         </div>
       </div>
