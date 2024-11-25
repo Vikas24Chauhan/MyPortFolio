@@ -1,24 +1,34 @@
-import "./App.css";
-import Header from "./components/header/Header";
-import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-import Experience from "./components/experience/Experience";
-import Projects from "./components/projects/Projects";
-import Education from "./components/education/Education";
-import Footer from "./components/footer/Footer";
+import { Navbar } from "./Components/Scripts/Navbar";
+import { About } from "./Components/Scripts/About";
+import { Skills } from "./Components/Scripts/Skills";
+import { Projects } from "./Components/Scripts/Projects";
+import { Experiences } from "./Components/Scripts/Experiences";
+import { Education } from "./Components/Scripts/Education";
+import { Footer } from "./Components/Scripts/Footer";
+import { BrowserRouter as Router } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Header />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
+    <Router basename="MyPortfolio">
+      <Navbar />
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="experiences">
+        <Experiences />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="education">
+        <Education />
+      </section>
       <Footer />
-    </>
+    </Router>
   );
-}
+};
 
 export default App;
