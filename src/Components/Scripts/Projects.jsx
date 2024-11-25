@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import styles from "../Styles/Timeline.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Book from "../Images/inotebook.jpg";
+import CDNLogo from "../Images/cdn_logo.jpg";
 import CDN from "../Images/cdn.png";
-// import GLBajaj from "../Images/gl_bajaj.png";
+import TenHRLogo from "../Images/ten_hr_logo.jpg";
 import TenHR from "../Images/ten-hr-consulting.png";
-// import GLBajaj from "../Images/gl_bajaj.png";
+import TenAILogo from "../Images/ten_ai_logo.png";
 import TenAI from "../Images/ten-ai-consulting-Labs.png";
-// import GLBajaj from "../Images/gl_bajaj.png";
+import EdusityLogo from "../Images/edusity_logo.png";
 import Edusity from "../Images/edusity.png";
-// import GLBajaj from "../Images/gl_bajaj.png";
+import PokemonLogo from "../Images/pokemon_logo.jpg";
 import Pokemon from "../Images/pokemon.png";
 
 export const Projects = () => {
@@ -36,7 +36,7 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.left_box}`}>
           <img
             className={styles.icons}
-            src={Book}
+            src={CDNLogo}
             alt="CDN Logo"
             data-aos="zoom-in"
           />
@@ -74,7 +74,7 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.right_box}`}>
           <img
             className={styles.icons}
-            src={Book}
+            src={TenHRLogo}
             alt="TEN-HR-Consulting Logo"
             data-aos="zoom-in"
           />
@@ -91,7 +91,9 @@ export const Projects = () => {
             <p className={styles.title}>TEN-HR-Consulting</p>
             <p>
               The TEN-HR-Consulting website is offering you Entrepreneurship
-              Network’s HR services.
+              Network’s HR services. The TEN-HR-Consulting website is proud to
+              offer HR services from The Entrepreneurship Network, providing
+              expert solutions to support your business's growth and success.
             </p>
             <div className={styles.button_box}>
               <a
@@ -110,9 +112,10 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.left_box}`}>
           <img
             className={styles.icons}
-            src={Book}
+            src={TenAILogo}
             alt="TEN-AI-Consulting-Labs Logo"
             data-aos="zoom-in"
+            style={{ backgroundColor: "white" }}
           />
           <div className={styles.text_box} data-aos="fade-up">
             <img src={TenAI} alt="TEN-AI-Consulting-Labs Project Image" />
@@ -146,7 +149,7 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.right_box}`}>
           <img
             className={styles.icons}
-            src={Book}
+            src={EdusityLogo}
             alt="Edusity Logo"
             data-aos="zoom-in"
           />
@@ -184,7 +187,7 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.left_box}`}>
           <img
             className={styles.icons}
-            src={Book}
+            src={PokemonLogo}
             alt="Pokemon Logo"
             data-aos="zoom-in"
           />
