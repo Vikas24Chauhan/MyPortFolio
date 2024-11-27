@@ -2,7 +2,7 @@ import styles from "../Styles/Skills.module.css";
 import VanillaTilt from "vanilla-tilt";
 import { useEffect } from "react";
 import Reactjs from "../Images/reactjs.png";
-import MERN from "../Images/mern.png";
+// import MERN from "../Images/mern.png";
 import HTML from "../Images/html.png";
 import CSS from "../Images/css.png";
 import JavaScript from "../Images/javascript.png";
@@ -14,6 +14,9 @@ import Git from "../Images/git.png";
 import GitHub from "../Images/github.png";
 import VSCode from "../Images/vscode.png";
 import ChatGPT from "../Images/chatgpt.png";
+import C from "../Images/c.png";
+import Java from "../Images/java.png";
+import Python from "../Images/python.png";
 
 export const Skills = () => {
   useEffect(() => {
@@ -43,8 +46,32 @@ export const Skills = () => {
         Tools and programming languages I utilize to create and develop
         innovative projects.
       </p>
+
       <div className={styles.cards_container}>
         <div className={styles.row}>
+          {/* Programming Language Section */}
+          <div className={`${styles.cards} tilt`}>
+            <div>Languages</div>
+            <div className={styles.tech_box}>
+              <div className={styles.tech}>
+                <img src={C} alt="c" />C
+              </div>
+              <div className={styles.tech}>
+                <img src={Java} alt="java" />
+                Java
+              </div>
+              <div className={styles.tech}>
+                <img src={Python} alt="python" />
+                Python
+              </div>
+              <div className={styles.tech}>
+                <img src={JavaScript} alt="javascript" />
+                JavaScript
+              </div>
+            </div>
+          </div>
+
+          {/* FrontEnd Section */}
           <div className={`${styles.cards} tilt`}>
             <div>Frontend</div>
             <div className={styles.tech_box}>
@@ -52,10 +79,10 @@ export const Skills = () => {
                 <img src={Reactjs} alt="reactjs" />
                 React.js
               </div>
-              <div className={styles.tech}>
+              {/* <div className={styles.tech}>
                 <img src={MERN} alt="mern" />
                 MERN Stack
-              </div>
+              </div> */}
               <div className={styles.tech}>
                 <img src={HTML} alt="html" />
                 HTML
@@ -71,7 +98,9 @@ export const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className={styles.row}>
+          {/* BackEnd Section */}
           <div className={`${styles.cards} tilt`}>
             <div>Backend & Database</div>
             <div className={styles.tech_box}>
@@ -93,6 +122,8 @@ export const Skills = () => {
               </div>
             </div>
           </div>
+
+          {/* Other Tools Section */}
           <div className={`${styles.cards} tilt`}>
             <div>Other Tools</div>
             <div className={styles.tech_box}>
