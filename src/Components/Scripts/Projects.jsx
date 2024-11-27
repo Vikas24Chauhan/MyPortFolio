@@ -6,8 +6,10 @@ import CDNLogo from "../Images/cdn_logo.jpg";
 import CDN from "../Images/cdn.png";
 import TenHRLogo from "../Images/ten_hr_logo.jpg";
 import TenHR from "../Images/ten-hr-consulting.png";
-import TenAILogo from "../Images/ten_ai_logo.png";
+import TenAILogo from "../Images/ten_ai_logo.jpg";
 import TenAI from "../Images/ten-ai-consulting-Labs.png";
+import PublicAdvocacyLogo from "../Images/public_advocacy_logo.jpg";
+import PublicAdvocacy from "../Images/public_advocacy.png";
 import EdusityLogo from "../Images/edusity_logo.png";
 import Edusity from "../Images/edusity.png";
 import PokemonLogo from "../Images/pokemon_logo.jpg";
@@ -115,7 +117,6 @@ export const Projects = () => {
             src={TenAILogo}
             alt="TEN-AI-Consulting-Labs Logo"
             data-aos="zoom-in"
-            style={{ backgroundColor: "white" }}
           />
           <div className={styles.text_box} data-aos="fade-up">
             <img src={TenAI} alt="TEN-AI-Consulting-Labs Project Image" />
@@ -149,6 +150,44 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.right_box}`}>
           <img
             className={styles.icons}
+            src={PublicAdvocacyLogo}
+            alt="Public Advocacy Logo"
+            data-aos="zoom-in"
+            style={{ backgroundColor: "white" }}
+          />
+          <div className={styles.text_box} data-aos="fade-up">
+            <img src={PublicAdvocacy} alt="Public Advocacy Project Image" />
+            <div className={styles.tags_box}>
+              <span className={styles.tags}>React js</span>
+              <span className={styles.tags}>JavaScript</span>
+              <span className={styles.tags}>HTML</span>
+              <span className={styles.tags}>CSS</span>
+            </div>
+            <p className={styles.title}>Public Advocacy</p>
+            <p>
+              Developed a comprehensive Public Advocacy project aimed at raising
+              awareness and fostering community engagement through strategic
+              communication, interactive campaigns, and user-friendly digital
+              tools, empowering users to make informed decisions and drive
+              positive change.
+            </p>
+            <div className={styles.button_box}>
+              <a
+                href="https://public-advocacy.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live App
+              </a>
+            </div>
+            <span className={styles.right_box_arrow}></span>
+          </div>
+        </div>
+
+        {/* Project 5 */}
+        <div className={`${styles.box} ${styles.left_box}`}>
+          <img
+            className={styles.icons}
             src={EdusityLogo}
             alt="Edusity Logo"
             data-aos="zoom-in"
@@ -179,12 +218,12 @@ export const Projects = () => {
                 Live App
               </a>
             </div>
-            <span className={styles.right_box_arrow}></span>
+            <span className={styles.left_box_arrow}></span>
           </div>
         </div>
 
-        {/* Project 5 */}
-        <div className={`${styles.box} ${styles.left_box}`}>
+        {/* Project 6 */}
+        <div className={`${styles.box} ${styles.right_box}`}>
           <img
             className={styles.icons}
             src={PokemonLogo}
@@ -218,7 +257,7 @@ export const Projects = () => {
                 Live App
               </a>
             </div>
-            <span className={styles.left_box_arrow}></span>
+            <span className={styles.right_box_arrow}></span>
           </div>
         </div>
       </div>
