@@ -14,6 +14,10 @@ import EdusityLogo from "../Images/edusity_logo.png";
 import Edusity from "../Images/edusity.png";
 import PokemonLogo from "../Images/pokemon_logo.jpg";
 import Pokemon from "../Images/pokemon.png";
+import TenFundingLogo from "../Images/ten_funding_logo.png";
+import TenFunding from "../Images/ten_funding.png";
+import TentoddlersLogo from "../Images/ten_toddlers_logo.png";
+import TenToddlers from "../Images/ten_toddlers.png";
 
 export const Projects = () => {
   useEffect(() => {
@@ -90,9 +94,9 @@ export const Projects = () => {
               <span className={styles.tags}>HTML</span>
               <span className={styles.tags}>CSS</span>
             </div>
-            <p className={styles.title}>TEN-HR-Consulting</p>
+            <p className={styles.title}>TEN HR Consulting</p>
             <p>
-              The TEN-HR-Consulting website is offering you Entrepreneurship
+              The TEN HR Consulting website is offering you Entrepreneurship
               Network’s HR services. The TEN-HR-Consulting website is proud to
               offer HR services from The Entrepreneurship Network, providing
               expert solutions to support your business's growth and success.
@@ -114,6 +118,87 @@ export const Projects = () => {
         <div className={`${styles.box} ${styles.left_box}`}>
           <img
             className={styles.icons}
+            src={TenFundingLogo}
+            alt="Ten Funding Logo Logo"
+            data-aos="zoom-in"
+          />
+          <div className={styles.text_box} data-aos="fade-up">
+            <img src={TenFunding} alt="Ten Funding Project Image" />
+            <div className={styles.tags_box}>
+              <span className={styles.tags}>React js</span>
+              <span className={styles.tags}>JavaScript</span>
+              <span className={styles.tags}>HTML</span>
+              <span className={styles.tags}>CSS</span>
+            </div>
+            <p className={styles.title}>TEN Funding</p>
+            <p>
+              TEN Funding is the ultimate platform for exploring the investors
+              backing The Entrepreneurship Network (TEN). It connects aspiring
+              entrepreneurs with the funding ecosystem that powers TEN's
+              innovative projects. By bridging the gap between visionaries and
+              financial support, TEN Funding fosters a thriving entrepreneurial
+              community.
+            </p>
+            <div className={styles.button_box}>
+              <a
+                href="https://ten-funding-beta.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live App
+              </a>
+            </div>
+            <span className={styles.left_box_arrow}></span>
+          </div>
+        </div>
+
+        {/* Project 4 */}
+        <div className={`${styles.box} ${styles.right_box}`}>
+          <img
+            className={styles.icons}
+            src={TentoddlersLogo}
+            alt="Ten Toddlers Logo"
+            data-aos="zoom-in"
+            style={{ backgroundColor: "white" }}
+          />
+          <div className={styles.text_box} data-aos="fade-up">
+            <img src={TenToddlers} alt="Ten toddlers Project Image" />
+            <div className={styles.tags_box}>
+              <span className={styles.tags}>React js</span>
+              <span className={styles.tags}>Node js</span>
+              <span className={styles.tags}>Express Js</span>
+              <span className={styles.tags}>JavaScript</span>
+              <span className={styles.tags}>HTML</span>
+              <span className={styles.tags}>CSS</span>
+            </div>
+            <p className={styles.title}>TEN Toddlers</p>
+            <p>
+              This website is a comprehensive resource dedicated to Baby Brain
+              Development, offering valuable guidance to help parents nurture
+              their child's cognitive and intellectual growth. With expert
+              mentors available, parents can receive personalized support and
+              scientifically-backed strategies tailored to their baby's
+              developmental stage. The platform covers a wide range of topics,
+              including sensory development, early learning techniques,
+              memory-building activities, and language skills enhancement.
+            </p>
+            <div className={styles.button_box}>
+              <a
+                href="https://ten-toddlers-mu.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live App
+              </a>
+            </div>
+            <span className={styles.right_box_arrow}></span>
+          </div>
+        </div>
+
+        {/* Project 5 */}
+        <div className={`${styles.box} ${styles.left_box}`}>
+          <img
+            className={styles.icons}
             src={TenAILogo}
             alt="TEN-AI-Consulting-Labs Logo"
             data-aos="zoom-in"
@@ -126,9 +211,9 @@ export const Projects = () => {
               <span className={styles.tags}>HTML</span>
               <span className={styles.tags}>CSS</span>
             </div>
-            <p className={styles.title}>TEN-AI-Consulting-Labs</p>
+            <p className={styles.title}>TEN AI Consulting Labs</p>
             <p>
-              The TEN-AI-Consulting-Labs website highlights The Entrepreneurship
+              The TEN AI Consulting Labs website highlights The Entrepreneurship
               Network’s services and offerings through a modern, user-friendly
               design. With 16 key components, it delivers a seamless and
               engaging browsing experience.
@@ -146,7 +231,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* Project 4 */}
+        {/* Project 6 */}
         <div className={`${styles.box} ${styles.right_box}`}>
           <img
             className={styles.icons}
@@ -184,7 +269,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* Project 5 */}
+        {/* Project 7 */}
         <div className={`${styles.box} ${styles.left_box}`}>
           <img
             className={styles.icons}
@@ -222,7 +307,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* Project 6 */}
+        {/* Project 8 */}
         <div className={`${styles.box} ${styles.right_box}`}>
           <img
             className={styles.icons}

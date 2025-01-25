@@ -52,7 +52,7 @@ export const About = () => {
           am ready to make a meaningful contribution and achieve great things.
         </div>
         <a
-          href="https://drive.google.com/file/d/1XXlNeo_f_iV3j2jhT38znvY9lXWwiEZt/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1XbBQHlC2kMJFR2IML5-iUjnC0vpkUffS/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className={styles.resume}
