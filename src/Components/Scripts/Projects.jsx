@@ -8,7 +8,7 @@ import TenHRLogo from "../Images/ten_hr_logo.jpg";
 import TenHR from "../Images/ten-hr-consulting.png";
 import TenAILogo from "../Images/ten_ai_logo.jpg";
 import TenAI from "../Images/ten-ai-consulting-Labs.png";
-import PublicAdvocacyLogo from "../Images/public_advocacy_logo.jpg";
+import PublicAdvocacyLogo from "../Images/public_advocacy_logo.png";
 import PublicAdvocacy from "../Images/public_advocacy.png";
 import EdusityLogo from "../Images/edusity_logo.png";
 import Edusity from "../Images/edusity.png";
@@ -141,7 +141,7 @@ export const Projects = () => {
             </p>
             <div className={styles.button_box}>
               <a
-                href="https://ten-funding-beta.vercel.app/"
+                href="https://ten-funding-lime.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
